@@ -2,6 +2,10 @@
 
 JavaScript and TypeScript client for the [Sec4Dev Security Checks API](https://api.sec4.dev): disposable email detection and IP classification.
 
+## Documentation
+
+Full API documentation: [https://docs.sec4.dev/](https://docs.sec4.dev/)
+
 ## Install
 
 ```bash
@@ -54,3 +58,4 @@ try {
 - `timeout` — Request timeout in ms (default: 30000)
 - `retries` — Retry attempts (default: 3)
 - `retryDelay` — Base retry delay in ms (default: 1000)
+- `onRateLimit` — Optional callback for rate limit updates after each request
